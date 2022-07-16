@@ -469,6 +469,14 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-item-nested-eating {
+  background-color: #FFFFFF;
+}
+
+.advantages-item-road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .advantages-description {
   margin: 0 auto;
 }
@@ -531,7 +539,6 @@ body {
 }
 
 .advantages-road {
-  background-color: rgba(131, 179, 211, 0.2);
   padding-right: 84px;
   padding-left: 84px;
   width: 232px;
@@ -544,7 +551,6 @@ body {
 }
 
 .advantages-nested-eating {
-  background-color: #FFFFFF;
   background-image: url("../images/advantage_icon/eating.svg");
   background-repeat: no-repeat;
   background-position: 50% 81px;
@@ -555,6 +561,11 @@ body {
   background-image: url("../images/advantage_icon/souvenir.svg");
   background-repeat: no-repeat;
   background-position: 50% 78px;
+}
+
+.advantages-image {
+  height: auto;
+  object-fit: cover;
 }
 
 .search {
